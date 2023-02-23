@@ -81,3 +81,15 @@ section {
   color: #fff;
   background-color: #000c6be6;
 }
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 30px 0px;
+  }
+  .section__title {
+    font-size: 1.6rem;
+  }
+  .section__subtitle {
+    font-size: 1.1rem;
+  }
+}
