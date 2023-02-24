@@ -37,3 +37,25 @@
 .header__top__right a:hover {
   color: #ffffffe7;
 }
+
+.header__middle {
+  padding: 20px 0px;
+}
+
+.logo h1 a span {
+  font-size: 1.5rem;
+}
+
+.logo h1 a i {
+  font-size: 2.1rem;
+}
+
+.logo h1 a {
+  text-decoration: none;
+  color: #000d6b;
+  font-weight: 700;
+}
+
+.logo h1 {
+  line-height: 1.4rem;
+}

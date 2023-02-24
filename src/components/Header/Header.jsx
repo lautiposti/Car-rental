@@ -33,6 +33,7 @@ const Header = () => {
           </Row>
         </Container>
       </div>
+
       {/* --------- Header middle --------- */}
       <div className="header__mid">
         <Container>
@@ -40,7 +41,7 @@ const Header = () => {
             <Col lg="4" md="3" sm="4">
               <div className="logo">
                 <h1>
-                  <Link to="/home">
+                  <Link to="/home" class="d-flex align-items-center gap-3">
                     <i class="ri-car-line"></i>
                     <span>
                       Rent car <br /> Service
@@ -55,10 +56,29 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
+                  <h4>Buenos Aires</h4>
+                  <h6>Argentina, Buenos Aires</h6>
+                </div>
+              </div>
+            </Col>
+
+            <Col lg="3" md="3" sm="4">
+              <div className="header__location">
+                <span>
+                  <i class="ri-time-line"></i>
+                </span>
+                <div className="header__location-content">
                   <h4>Sunday to Friday</h4>
                   <h6>10am - 7pm</h6>
                 </div>
               </div>
+            </Col>
+            <Col lg="2" md="3" sm="0">
+              <button className="header__btn btn d-flex align-items-center justify-content-end">
+                <Link to="/contact">
+                  <i class="ri-phone-line">Request a call</i>
+                </Link>
+              </button>
             </Col>
           </Row>
         </Container>
